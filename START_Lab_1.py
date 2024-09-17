@@ -1,4 +1,5 @@
 
+#
 input_gb = input("How many gigabytes?")
 
 def lab1Question1(input_gb):
