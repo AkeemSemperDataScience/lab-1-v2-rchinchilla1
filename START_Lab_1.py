@@ -1,16 +1,53 @@
+
+input_gb = input("How many gigabytes?")
+
 def lab1Question1(input_gb):
     # Convert the input of a number of gigabytes to the number of bytes
     num_bytes = None
     # Do the work here
+    
+        total_bytes = int(num_gigabytes)*1000000000
+        return num_bytes
+     
+num_bytes = def lab1Question1(input_gb)
+
     # The solution to this goes here (and in all of them below...)
+    print("You have", num_bytes, "bytes")
+
+
+    
     # Set the variable num_bytes to the answer and return it
 
-    return num_bytes
+ 
+input_string= str(input("please enter your name:"))
 
 def lab1Question2(name):
     # Take an input of a name, return True if there is an odd number of characters in the name, False otherwise
     # Return None if the input is not a string
     is_odd = None
+    length = lens(name)
+    if length % == 0:
+         is_odd = False
+    else:
+        is_odd = True
+    return is_odd
+
+  
+   num=len(name)
+   if num % 2 ==0:
+    return "even"
+    else:
+        return"odd"
+
+    is_odd = None
+    if(num % 2==0):
+        print(num, "is an even")
+    else:
+        print(num, "is an odd")
+        
+
+
+
 
     return is_odd
 
