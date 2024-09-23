@@ -8,3 +8,4 @@ Instructor Setup Reminder:
 - Remove the workflows folder. 
 - In the assignment, remove the cloning yml
 - Currently 26 points
+
